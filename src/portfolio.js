@@ -410,7 +410,7 @@ const projects = {
       links: [
         {
           name: "Github",
-          url: "https://github.com/harikanani/Keep-Calm-and-Carry-On.github.io",
+          url: "",
           iconifyClass: "ri:github-fill",
         },
         {
