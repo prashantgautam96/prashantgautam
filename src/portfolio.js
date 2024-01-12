@@ -64,7 +64,7 @@ const skills = {
         },
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "logos:java",
           style: {
             color: "#7377AD",
           },
@@ -78,7 +78,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "devicon:nodejs",
           style: {
             color: "#339933",
           },
@@ -127,8 +127,8 @@ const skills = {
         //   },
         // },
         {
-          skillName: "MySQL",
-          fontAwesomeClassname: "simple-icons:mysql",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "logos:postgresql",
           style: {
             color: "#4479A1",
           },
@@ -170,7 +170,7 @@ const skills = {
         },
         {
           skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
+          fontAwesomeClassname: "skill-icons:cpp",
           style: {
             color: "#E94E32",
           },
@@ -180,73 +180,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:python",
           style: {
             color: "#3776AB",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing websites",
-        "⚡ Experience with Continuous Integration",
-      ],
-      softwareSkills: [
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
           },
         },
       ],
@@ -358,19 +291,19 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      id: "2",
+      id: "0",
       name: "TripBuddy",
       url: "https://github.com/kevalvavaliya/Adoptisity",
       description:
-        "Developed a web application service to connect individuals seeking travel companionship. Utilized SpringBoot, SpringMVC, and SpringSecurity for robust backend functionality",
+        "Developed a web application service to connect individuals seeking travel companionship. Utilized SpringFramework for robust backend functionality",
       languages: [
         {
           name: "Java",
-          iconifyClass: "logos-html-5",
+          iconifyClass: "logos:java",
         },
         {
           name: "Springboot",
-          iconifyClass: "logos-css-3",
+          iconifyClass: "simple-icons:springboot",
         },
         {
           name: "HTML5",
@@ -383,20 +316,10 @@ const projects = {
           url: "",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/adoptisity",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url: "https://rajmahadevwala1.wixsite.com/adoptisity",
-          iconifyClass: "mdi:web",
-        },
       ],
     },
     {
-      id: "0",
+      id: "1",
       name: "Automatic Time Table Generation System",
       url: "https://github.com/Aman-garg-IITian/Timetable-Generation-System",
       description:
@@ -404,7 +327,7 @@ const projects = {
       languages: [
         {
           name: "C++",
-          iconifyClass: "bxl:c-plus-plus",
+          iconifyClass: "skill-icons:cpp",
         },
       ],
       links: [
@@ -413,21 +336,10 @@ const projects = {
           url: "",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devpost",
-          url: "https://devpost.com/software/keep-calm-and-carry-on",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-        {
-          name: "Live Demo",
-          url:
-            "https://akshitagupta15june.github.io/Keep-Calm-and-Carry-On.github.io/",
-          iconifyClass: "mdi:web",
-        },
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "Recommendation System",
       url: "https://github.com/prashantgautam96/Recommendation-System-MS",
       description:
@@ -444,11 +356,6 @@ const projects = {
           url: "https://github.com/kevalvavaliya/Yog4Life",
           iconifyClass: "ri:github-fill",
         },
-        {
-          name: "Devfolio",
-          url: "https://devfolio.co/projects/yoglife-b20d",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
       ],
     },
     {
@@ -456,15 +363,15 @@ const projects = {
       name: "Blogs & Events Website",
       url: "https://github.com/prashantgautam96/kritash_",
       description:
-        "Developed full-stack website using React for the frontend, Express & Node for the server-side and MongoDB for the database Collaborated with 2 other developers to refine specifications and design",
+        "Developed full-stack website using React for the frontend, Express & Node for the server-side and MongoDB for the database",
       languages: [
         {
           name: "Nodejs",
-          iconifyClass: "logos-node",
+          iconifyClass: "devicon:nodejs",
         },
         {
           name: "Reactjs",
-          iconifyClass: "logos-react",
+          iconifyClass: "skill-icons:react-dark",
         },
       ],
       links: [
@@ -474,38 +381,9 @@ const projects = {
           iconifyClass: "ri:github-fill",
         },
         {
-          name: "Devfolio",
-          url: "https://github.com/prashantgautam96/kritash_ui",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
-        },
-      ],
-    },
-    {
-      id: "4",
-      name: "Blogs & Events Website",
-      url: "https://github.com/prashantgautam96/kritash_",
-      description:
-        "Developed full-stack website using React for the frontend, Express & Node for the server-side and MongoDB for the database Collaborated with 2 other developers to refine specifications and design",
-      languages: [
-        {
-          name: "Nodejs",
-          iconifyClass: "logos-node",
-        },
-        {
-          name: "Reactjs",
-          iconifyClass: "logos-react",
-        },
-      ],
-      links: [
-        {
           name: "Github",
-          url: "https://github.com/prashantgautam96/kritash_",
-          iconifyClass: "ri:github-fill",
-        },
-        {
-          name: "Devfolio",
           url: "https://github.com/prashantgautam96/kritash_ui",
-          iconifyClass: "fluent:window-dev-edit-20-filled",
+          iconifyClass: "ri:github-fill",
         },
       ],
     },
