@@ -17,7 +17,7 @@ const greeting = {
   subTitle:
     "An undergrad, Software Development Enthusiast 🔥. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
+    "https://drive.google.com/file/d/1KdDV8jvNbPx1JpSpmk0B4nPwGlnCC6gl/view?usp=sharing",
   mail: "mailto:prashantgautam.275101@gmail.com",
 };
 
