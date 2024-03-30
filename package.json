@@ -2,7 +2,7 @@
   "private": true,
   "name": "personalPortfolio",
   "version": "1.0.0",
-  "homepage": "https://prashantgautam96.github.io/portfolioPrashantGautam/",
+  "homepage": "https://prashantgautam96.github.io/prashantgautam/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
